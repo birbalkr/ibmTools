@@ -1,0 +1,8 @@
+{
+  "clientId": "4d7d0953-b1f6-46c6-8e40-ec5e801379f2",
+  "oauthServerUrl": "https://au-syd.appid.cloud.ibm.com/oauth/v4/23bae554-b1f1-42c8-a02c-c1580935fee0",
+  "profilesUrl": "https://au-syd.appid.cloud.ibm.com",
+  "secret": "ZGNjYTJlZWYtMDFkNS00ZmFmLTgzODUtODQxOGFhNWExOTE2",
+  "tenantId": "23bae554-b1f1-42c8-a02c-c1580935fee0",
+  "redirectUri": "http://localhost:3000/ibm/cloud/appid/callback"
+}
