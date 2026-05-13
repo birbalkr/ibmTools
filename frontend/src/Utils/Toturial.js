@@ -103,7 +103,7 @@ export const toturial=
         step9:"9. Docker Swarm : Docker Swarm is a native clustering and orchestration tool for Docker that allows you to manage a cluster of Docker nodes as a single virtual system. You can create a swarm, deploy services, and manage the cluster using Docker commands. Refer to the Docker documentation for more information on how to use Docker Swarm effectively. https://docs.docker.com/engine/swarm/",
         step10:"10. Documentation : For more detailed information and guidance on using Docker effectively, refer to the Docker documentation: https://docs.docker.com/ : This documentation provides comprehensive information on how to use Docker effectively, including creating Dockerfiles, building images, running containers, managing resources, pushing and pulling images, using Docker Compose and Swarm, and more. Make sure to refer to the documentation regularly for updates and best practices on using Docker in your development projects. https://docs.docker.com/",
     },
-    IBM Cloud Deployment:
+    IBMCloudDeployment:
     {
         image: [step1, step2, step3, step4, step5, step6, step7, step8, step9, step10],
         title:"IBM Cloud Deployment",
@@ -120,6 +120,4 @@ export const toturial=
         step9:"9. Update and Maintain Your Deployment : Regularly update and maintain your deployment on IBM Cloud to ensure that it remains secure, performant, and up-to-date with the latest features and improvements. This may involve applying patches, updating dependencies, and making necessary adjustments to your deployment as needed. Refer to the IBM Cloud documentation for more information on how to update and maintain your deployment effectively on IBM Cloud. https://cloud.ibm.com/docs/deploy?topic=deploy-getting-started",
         step10:"10. Documentation : For more detailed information and guidance on deploying applications effectively on the IBM Cloud platform, refer to the IBM Cloud documentation: https://cloud.ibm.com/docs/deploy?topic=deploy-getting-started : This documentation provides comprehensive information on how to prepare your application, choose the right deployment option, configure resources, deploy your application, monitor and manage your deployment, scale your deployment, implement security best practices, optimize performance, and update and maintain your deployment on IBM Cloud. Make sure to refer to the documentation regularly for updates and best practices on deploying applications effectively on the IBM Cloud platform. https://cloud.ibm.com/docs/deploy?topic=deploy-getting-started",
     }
-},  
-
-
+}
