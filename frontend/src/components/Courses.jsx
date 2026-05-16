@@ -41,6 +41,30 @@ const data = {
     "Manage authentication settings and metrics.",
     "Read official IBM App ID documentation.",
   ],
+  steps1: [
+    "Open IBM Cloud and login with your IBM account.",
+    "Open Dashboard and search for App ID service.",
+    "Select App ID service and create a new resource.",
+    "Choose region and Lite plan, then create service.",
+    "Launch App ID dashboard from IBM Cloud.",
+    "Create a new App ID application.",
+    "View credentials and copy Client ID and Secret.",
+    "Integrate credentials into your application.",
+    "Manage authentication settings and metrics.",
+    "Read official IBM App ID documentation.",
+  ],
+  steps2: [
+    "Open IBM Cloud and login with your IBM account.",
+    "Open Dashboard and search for App ID service.",
+    "Select App ID service and create a new resource.",
+    "Choose region and Lite plan, then create service.",
+    "Launch App ID dashboard from IBM Cloud.",
+    "Create a new App ID application.",
+    "View credentials and copy Client ID and Secret.",
+    "Integrate credentials into your application.",
+    "Manage authentication settings and metrics.",
+    "Read official IBM App ID documentation.",
+  ],
 };
 
 export default function Courses() {
@@ -93,16 +117,7 @@ export default function Courses() {
               {data.description}
             </p>
 
-            <div className="flex flex-wrap gap-4">
-              <button className="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-2xl font-semibold flex items-center gap-2 transition">
-                Read Docs
-                <ArrowRight size={20} />
-              </button>
-
-              <button className="border border-slate-700 hover:border-slate-500 px-8 py-4 rounded-2xl font-semibold transition">
-                Documentation
-              </button>
-            </div>
+            
           </div>
 
      
@@ -112,7 +127,7 @@ export default function Courses() {
      
 
       {/* FOOTER */}
-      <section className="max-w-7xl mx-auto px-6 lg:px-10 pb-20">
+      {/* <section className="max-w-7xl mx-auto px-6 lg:px-10 pb-20">
         <div className="bg-gradient-to-r from-blue-600 to-indigo-700 rounded-[40px] p-10 lg:p-14 flex flex-col lg:flex-row items-center justify-between gap-8">
           <div>
             <div className="flex items-center gap-2 text-blue-100 mb-4">
@@ -133,11 +148,11 @@ export default function Courses() {
             View Documentation
           </button>
         </div>
-      </section>
+      </section> */}
 
-      <footer className="border-t border-white/10 py-10 text-center text-slate-500">
+      {/* <footer className="border-t border-white/10 py-10 text-center text-slate-500">
         <p>© 2026 IBM App ID Learning Portal. All rights reserved.</p>
-      </footer>
+      </footer> */}
     </div>
   );
 }
