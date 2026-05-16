@@ -18,7 +18,7 @@ export const toturial=
     step9:"9. Manage App ID : You can manage your App ID service, view usage metrics, and configure settings from the IBM Cloud dashboard. Click on the App ID service in your dashboard to access its details and settings. From there, you can monitor usage metrics, manage authentication methods, configure user management settings, and set up access control policies. Refer to the IBM App ID documentation for more information on how to manage your App ID service effectively and optimize its performance for your applications. Make sure to regularly review and update your App ID settings to ensure the security and performance of your applications. Refer to the IBM App ID documentation for more information on how to manage your App ID service effectively.",
     step10:"10. Documentation : For more detailed information and guidance, refer to the IBM App ID documentation: https://cloud.ibm.com/docs/appid?topic=appid-getting-started : This documentation provides comprehensive information on how to use and manage your App ID service effectively, including authentication methods, user management, access control policies, and integration with your applications. Make sure to refer to the documentation regularly for updates and best practices on using the IBM App ID service effectively in your applications.",
     },
-    ChatBot:
+    IBM_Cloud_ChatBot:
     {
         image:[step1, step2, step3, step4, step5, step6, step7, step8, step9, step10],
         title:"IBM ChatBot",
@@ -103,11 +103,7 @@ export const toturial=
         step9:"9. Docker Swarm : Docker Swarm is a native clustering and orchestration tool for Docker that allows you to manage a cluster of Docker nodes as a single virtual system. You can create a swarm, deploy services, and manage the cluster using Docker commands. Refer to the Docker documentation for more information on how to use Docker Swarm effectively. https://docs.docker.com/engine/swarm/",
         step10:"10. Documentation : For more detailed information and guidance on using Docker effectively, refer to the Docker documentation: https://docs.docker.com/ : This documentation provides comprehensive information on how to use Docker effectively, including creating Dockerfiles, building images, running containers, managing resources, pushing and pulling images, using Docker Compose and Swarm, and more. Make sure to refer to the documentation regularly for updates and best practices on using Docker in your development projects. https://docs.docker.com/",
     },
-<<<<<<< HEAD
     IBM_Cloud_Deployment:
-=======
-    IBMCloudDeployment:
->>>>>>> 5543037964f15b7b2376710e2fea4322884ee24c
     {
         image: [step1, step2, step3, step4, step5, step6, step7, step8, step9, step10],
         title:"IBM Cloud Deployment",
