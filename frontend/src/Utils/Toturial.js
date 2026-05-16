@@ -103,11 +103,7 @@ export const toturial=
         step9:"9. Docker Swarm : Docker Swarm is a native clustering and orchestration tool for Docker that allows you to manage a cluster of Docker nodes as a single virtual system. You can create a swarm, deploy services, and manage the cluster using Docker commands. Refer to the Docker documentation for more information on how to use Docker Swarm effectively. https://docs.docker.com/engine/swarm/",
         step10:"10. Documentation : For more detailed information and guidance on using Docker effectively, refer to the Docker documentation: https://docs.docker.com/ : This documentation provides comprehensive information on how to use Docker effectively, including creating Dockerfiles, building images, running containers, managing resources, pushing and pulling images, using Docker Compose and Swarm, and more. Make sure to refer to the documentation regularly for updates and best practices on using Docker in your development projects. https://docs.docker.com/",
     },
-<<<<<<< HEAD
-    IBM_Cloud_Deployment:
-=======
     IBMCloudDeployment:
->>>>>>> 5543037964f15b7b2376710e2fea4322884ee24c
     {
         image: [step1, step2, step3, step4, step5, step6, step7, step8, step9, step10],
         title:"IBM Cloud Deployment",
