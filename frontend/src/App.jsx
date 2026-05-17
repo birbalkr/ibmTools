@@ -1,19 +1,30 @@
 
 import './App.css'
-import Courses from './components/Courses'
-import Demo from './components/Demo'
+import { useState } from 'react'
 import Home from './components/Home'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import CoursePage from './pages/Course'
 
 function App() {
+  const [view, setView] = useState('home') // 'home' or 'course'
+  const [selectedCourse, setSelectedCourse] = useState(null)
+
+  const handleViewCourse = (course) => {
+    // support both course object (old Home) and courseKey string (new Home)
+    if (typeof course === 'string') {
+      setSelectedCourse({ name: course });
+    } else {
+      setSelectedCourse(course);
+    }
+    setView('course')
+  }
 
   return (
-    <Router>
-      <Routes>
-          <Route path="/" element={<Demo/>} />
-          <Route path="/Courses" element={<Courses />} />
-      </Routes>
-    </Router>
+    <>
+      <main>
+        {view === 'home' && <Home onNavigate={handleViewCourse} />}
+        {view === 'course' && <CoursePage initialCourse={selectedCourse?.name} />}
+      </main>
+    </>
   )
 }
 
